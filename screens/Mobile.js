@@ -31,8 +31,8 @@ const Profile = () => {
                     <Image source={require('../assets/inmakes.jpg')}
                         style={styles.logo}>
                     </Image>
-                    <Text style={{ color: 'black', fontSize: 30, alignSelf: 'center', fontWeight: "bold" }}>Enter your Mobile Number</Text>
-                    <Text style={{ color: 'grey', fontSize: 15, marginHorizontal:110,marginBottom:10 }}>we will send you a OTP to verify</Text>
+                    <Text style={{ color: 'black', fontSize: 25, alignSelf: 'center', fontWeight: "bold" }}>Enter your Mobile Number</Text>
+                    <Text style={{ color: 'grey', fontSize: 15, marginHorizontal:90,marginBottom:10 }}>we will send you a OTP to verify</Text>
                 </View>
             </View>
 

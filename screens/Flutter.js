@@ -73,8 +73,8 @@ const Profile = () => {
                             </Image>
                         </View> 
                           <View>
-                          <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black' }}>REACT-NATIVE U.I COMPONENTS</Text>
-                            <Text style={{ fontSize: 15, color: 'grey' }}>COMPLETION STATUS -100% </Text>
+                          <Text style={{ fontSize: 15, fontWeight: 'bold', color: 'black' }}>REACT-NATIVE U.I COMPONENTS</Text>
+                            <Text style={{ fontSize: 12, color: 'grey' }}>COMPLETION STATUS -100% </Text>
                           </View>                   
                         </View>
                         
@@ -88,8 +88,8 @@ const Profile = () => {
                         </Image>
                     </View> 
                       <View>
-                      <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black' }}>REACT-NATIVE STACK NAVIGATION</Text>
-                        <Text style={{ fontSize: 15, color: 'grey' }}>COMPLETION STATUS -100% </Text>
+                      <Text style={{ fontSize: 15, fontWeight: 'bold', color: 'black' }}>REACT-NATIVE STACK NAVIGATION</Text>
+                        <Text style={{ fontSize: 12, color: 'grey' }}>COMPLETION STATUS -100% </Text>
                       </View>                   
                     </View>
                     
@@ -103,8 +103,8 @@ const Profile = () => {
                         </Image>
                     </View> 
                       <View>
-                      <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black' }}>REACT-NATIVE BOTTOM NAVIGATION</Text>
-                        <Text style={{ fontSize: 15, color: 'grey' }}>COMPLETION STATUS -100% </Text>
+                      <Text style={{ fontSize: 15, fontWeight: 'bold', color: 'black' }}>REACT-NATIVE BOTTOM NAVIGATION</Text>
+                        <Text style={{ fontSize: 12, color: 'grey' }}>COMPLETION STATUS -100% </Text>
                       </View>                   
                     </View>
                     
@@ -118,8 +118,8 @@ const Profile = () => {
                         </Image>
                     </View> 
                       <View>
-                      <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black' }}>REACT-NATIVE SLIDE DRAWER</Text>
-                        <Text style={{ fontSize: 15, color: 'grey' }}>COMPLETION STATUS -100% </Text>
+                      <Text style={{ fontSize: 15, fontWeight: 'bold', color: 'black' }}>REACT-NATIVE SLIDE DRAWER</Text>
+                        <Text style={{ fontSize: 12, color: 'grey' }}>COMPLETION STATUS -100% </Text>
                       </View>                   
                     </View>
                     
@@ -133,8 +133,8 @@ const Profile = () => {
                         </Image>
                     </View> 
                       <View>
-                      <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black' }}>REACT-NATIVE FRONT-END DESIGN</Text>
-                        <Text style={{ fontSize: 15, color: 'grey' }}>COMPLETION STATUS -100% </Text>
+                      <Text style={{ fontSize: 15, fontWeight: 'bold', color: 'black' }}>REACT-NATIVE FRONT-END DESIGN</Text>
+                        <Text style={{ fontSize: 12, color: 'grey' }}>COMPLETION STATUS -100% </Text>
                       </View>                   
                     </View>
                     
@@ -148,8 +148,8 @@ const Profile = () => {
                         </Image>
                     </View> 
                       <View>
-                      <Text style={{ fontSize: 18, fontWeight: 'bold', color: 'black' }}>REACT-NATIVE REDUX KIT</Text>
-                        <Text style={{ fontSize: 15, color: 'grey' }}>COMPLETION STATUS -100% </Text>
+                      <Text style={{ fontSize: 15, fontWeight: 'bold', color: 'black' }}>REACT-NATIVE REDUX KIT</Text>
+                        <Text style={{ fontSize: 12, color: 'grey' }}>COMPLETION STATUS -100% </Text>
                       </View>                   
                     </View>
                     

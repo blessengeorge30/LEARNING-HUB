@@ -33,7 +33,7 @@ const Search = () => {
             >
                 <View style={{ flexDirection: 'row'}}>
                     <Image style={{ height: 40, width: 40, marginLeft: 15, marginTop: 10 }} source={item.image} />
-                    <Text style={{ marginLeft: 12, marginTop: 20, fontSize: 15, fontWeight: 'bold', color: 'black' }}>{item.name}</Text>
+                    <Text style={{ marginLeft: 8, marginTop: 20, fontSize: 14, fontWeight: 'bold', color: 'black' }}>{item.name}</Text>
                     
                 </View>
                 {/* <View style={{ flexDirection: 'row' }}>
@@ -50,7 +50,7 @@ const Search = () => {
         return (
             <TouchableOpacity  onPress={course}>
                 <View style={{ alignSelf: 'center', marginVertical:2,marginHorizontal:15 }}>
-                    <Image style={{ height: 110, width: 200, }} source={item.image} />
+                    <Image style={{ height: 110, width: 200,borderRadius:12 }} source={item.image} />
 
 
                 </View>
@@ -64,10 +64,10 @@ const Search = () => {
             <View style={styles.discoverclasses}>
             {/* <View style={{ flexDirection: 'row', }}> */}
                 {/* <Image style={{ height: 40, width: 40, marginLeft: 15, marginTop: 10 }} source={item.image} /> */}
-                <Text style={{ marginLeft: 12, marginTop: 20, fontSize: 22, fontWeight: 'bold', color: 'white' }}>{item.name}</Text>
+                <Text style={{ marginLeft: 12, marginTop: 20, fontSize: 20, fontWeight: 'bold', color: 'white' }}>{item.name}</Text>
             {/* </View> */}
             <View >
-                <Text style={{ marginHorizontal: 20, marginTop: 15, fontSize: 15, fontWeight: 'bold', color: 'grey' }}>{item.description}</Text>
+                <Text style={{ marginHorizontal: 20, marginTop: 15, fontSize: 12, fontWeight: 'bold', color: 'grey' }}>{item.description}</Text>
                 <TouchableOpacity style={styles.button2}>
                     <Text style={{ color:'white'}}>{item.buttontxt}</Text>
                     </TouchableOpacity>
@@ -229,6 +229,7 @@ const styles = StyleSheet.create({
         borderBottomColor: '#Aaaaaa',
         width: 420,
         height: 120,
+        marginTop:25
 
 
     },
@@ -295,7 +296,7 @@ const styles = StyleSheet.create({
     },
     discoversubjects: {
         borderWidth: 1,
-        width: 130,
+        width: 150,
         height: 60,
         borderColor: 'black',
         borderRadius: 5,

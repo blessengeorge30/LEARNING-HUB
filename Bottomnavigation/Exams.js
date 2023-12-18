@@ -61,6 +61,7 @@ const styles = StyleSheet.create({
     borderBottomColor: '#Aaaaaa',
     width: 420,
     height: 120,
+    marginTop:35
   },
   button: {
     height: 35,

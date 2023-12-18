@@ -40,7 +40,7 @@ const Profile = () => {
                 </View>
             </View>
 
-            <View style={{ height: 550, backgroundColor: '#000d1b', borderRadius: 15, marginTop: 15 }}>
+            <View style={{ height: 750, backgroundColor: '#000d1b', borderRadius: 15, marginTop: 15 }}>
                 <View style={{ marginTop: 25,marginLeft:30 }}>
                 <TextInput style={[styles.inputView, styles.setColorwhite]}
                         placeholder='Full name '

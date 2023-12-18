@@ -77,21 +77,7 @@ const Search = () => {
                     </ScrollView>
                 </View>              
               </View>
-                
-                    
-               
-
-
-
-
-
-
-
           
-            
-
-
-           
             {/* </ImageBackground> */}
 
   
@@ -171,6 +157,7 @@ const styles = StyleSheet.create({
         borderBottomColor: '#Aaaaaa',
         width: 420,
         height: 120,
+        marginTop:45
 
 
     },

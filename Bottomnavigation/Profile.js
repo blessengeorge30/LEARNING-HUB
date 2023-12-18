@@ -62,9 +62,9 @@ const Profile = () => {
                                 style={styles.logo}>
                             </Image>
                         </View>
-                        <View style={{ marginTop: 28, marginRight: 105 }}>
-                            <Text style={{ fontSize: 17, fontWeight: 'bold', color: 'black' }}>BLESSEN GEORGE</Text>
-                            <Text style={{ fontSize: 18, color: 'grey' }}>ID: 8526974316</Text>
+                        <View style={{ marginTop: 28, marginRight: 85 }}>
+                            <Text style={{ fontSize: 16, fontWeight: 'bold', color: 'black' }}>BLESSEN GEORGE</Text>
+                            <Text style={{ fontSize: 17, color: 'grey' }}>ID: 8526974316</Text>
 
                         </View>
                     </View>
@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
         width: '89%',
         height: 600,
         backgroundColor: 'white',
-        marginTop: -65,
+        marginTop: -55,
         marginHorizontal: 22,
         borderRadius: 30,
         elevation: 15
@@ -156,21 +156,21 @@ const styles = StyleSheet.create({
         marginVertical: 15,
         marginHorizontal: 20,
         color: '#000305',
-        fontSize: 18,
+        fontSize: 15,
         //    fontWeight:'bold'
     },
     cardtext2: {
         marginVertical: 15,
         marginHorizontal: 20,
         color: '#000305',
-        fontSize: 18,
+        fontSize: 15,
         fontWeight: 'bold'
     },
     cardtext3: {
         marginVertical: 15,
         marginHorizontal: 60,
         color: '#000305',
-        fontSize: 18,
+        fontSize: 15,
         fontWeight: 'bold'
     },
     button1: {
