@@ -47,7 +47,7 @@ Start learning today! 📚✨
 
 ![App Screenshot](./screenshots/Exams.png)
 
-![App Screenshot](./screenshots/Notifications.png)
+![App Screenshot](./screenshots/Notification.png)
 
 ![App Screenshot](./screenshots/Profile.png)
 
