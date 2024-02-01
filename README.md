@@ -28,25 +28,25 @@ Start learning today! 📚✨
 
 ## Screenshots
 
-![App Screenshot](./screenshots/phoneno.png)
+![App Screenshot](./screenshots/Phoneno.png)
 
-![App Screenshot](./screenshots/otp.png)
+![App Screenshot](./screenshots/Otp.png)
 
-![App Screenshot](./screenshots/register.png)
+![App Screenshot](./screenshots/Register.png)
 
-![App Screenshot](./screenshots/college.png)
+![App Screenshot](./screenshots/College.png)
 
-![App Screenshot](./screenshots/homepage.png)
+![App Screenshot](./screenshots/Homepage.png)
 
-![App Screenshot](./screenshots/search.png)
+![App Screenshot](./screenshots/Search.png)
 
-![App Screenshot](./screenshots/exam.png)
+![App Screenshot](./screenshots/Exam.png)
 
-![App Screenshot](./screenshots/notification.png)
+![App Screenshot](./screenshots/Notification.png)
 
-![App Screenshot](./screenshots/profile.png)
+![App Screenshot](./screenshots/Profile.png)
 
-![App Screenshot](./screenshots/progress.png)
+![App Screenshot](./screenshots/Progress.png)
 
 
 
