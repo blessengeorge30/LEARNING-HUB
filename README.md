@@ -30,7 +30,7 @@ Start learning today! 📚✨
 
 ![App Screenshot](./screenshots/overview1.png)
 
-![App Screenshot](./screenshots/overview2.png)
+![App Screenshot](./screenshots/Overview2.png)
 
 ![App Screenshot](./screenshots/overview.png)
 
