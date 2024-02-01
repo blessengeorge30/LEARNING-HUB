@@ -28,25 +28,12 @@ Start learning today! 📚✨
 
 ## Screenshots
 
-![App Screenshot](./screenshots/Phoneno.png)
+![App Screenshot](./screenshots/overview1.png)
 
-![App Screenshot](./screenshots/Otp.png)
+![App Screenshot](./screenshots/overview2.png)
 
-![App Screenshot](./screenshots/Register.png)
+![App Screenshot](./screenshots/overview.png)
 
-![App Screenshot](./screenshots/College.png)
-
-![App Screenshot](./screenshots/Homepage.png)
-
-![App Screenshot](./screenshots/Search.png)
-
-![App Screenshot](./screenshots/Exam.png)
-
-![App Screenshot](./screenshots/Notification.png)
-
-![App Screenshot](./screenshots/Profile.png)
-
-![App Screenshot](./screenshots/Progress.png)
 
 
 
