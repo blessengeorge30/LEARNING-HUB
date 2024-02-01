@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
 
         width: 250,
         height: 120,
-        marginTop:0,
+        marginTop:30,
         resizeMode: "contain",
         alignSelf: "center"
 
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
     logo1: {
         height: 250,
         width: 250,
-        marginBottom: 25,
+        marginBottom: 15,
         resizeMode: "contain",
         alignSelf: "center"
     },
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
         height: 65,
         borderWidth: 0.5,
         borderRadius: 5,
-        borderColor: '#012143',
+        borderColor: '#1d5370',
         backgroundColor: '#011122',
         marginTop: 25,
         paddingLeft: 25,
