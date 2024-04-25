@@ -25,12 +25,12 @@ const Search = () => {
                     <Image source={require('../assets/menu.png')} style={{ height: 15, width: 15, tintColor: 'green' }} />
 
                 </TouchableOpacity>
-                <Image source={require('../assets/inmakes.jpg')}
+                <Image source={require('../assets/inmakes.jpeg')}
                     style={styles.logo} />
                 <View >
                     <TouchableOpacity style={styles.button}>
                         <Image source={require('../assets/blackcircle.png')} style={{ height: 15, width: 15, tintColor: 'green' }} />
-                        <Text style={styles.buttonText}>Classes</Text>
+                        <Text style={styles.buttonText}>Online</Text>
                     </TouchableOpacity>
                 </View>
 
@@ -124,6 +124,7 @@ const styles = StyleSheet.create({
         marginLeft: -15,
         marginRight: 25,
         marginTop: 8,
+        opacity:0,
         resizeMode: "contain"
     },
     wave: {

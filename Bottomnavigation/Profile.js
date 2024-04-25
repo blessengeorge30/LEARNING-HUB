@@ -45,10 +45,10 @@ const Profile = () => {
                             <Image source={require('../assets/bell.png')} style={{ height: 25, width: 25 ,marginRight:14,tintColor:'black'}} />
 
                         </TouchableOpacity>
-                        <TouchableOpacity style={styles.button1}>
+                        {/* <TouchableOpacity style={styles.button1}>
                             <Image source={require('../assets/menu.png')} style={{ height: 15, width: 15, tintColor: 'white' }} />
 
-                        </TouchableOpacity>
+                        </TouchableOpacity> */}
                        
                         
                     </View>
@@ -63,9 +63,8 @@ const Profile = () => {
                             </Image>
                         </View>
                         <View style={{ marginTop: 28, marginRight: 85 }}>
-                            <Text style={{ fontSize: 16, fontWeight: 'bold', color: 'black' }}>BLESSEN GEORGE</Text>
+                            <Text style={{ fontSize: 16, fontWeight: 'bold', color: 'black' }}>GEORGE THOMAS</Text>
                             <Text style={{ fontSize: 17, color: 'grey' }}>ID: 8526974316</Text>
-
                         </View>
                     </View>
                     <View >
@@ -93,7 +92,7 @@ const Profile = () => {
                         </View>
                         <View style={{ borderBottomWidth: 1, borderBottomColor: '#ccd3d6', flexDirection: "row" }}>
                             <Text style={styles.cardtext1}>Specialization</Text>
-                            <Text style={styles.cardtext2}> React-native</Text>
+                            <Text style={styles.cardtext2}> COMPUTER-SCIENCE</Text>
                         </View>
                         <View style={{  flexDirection: "row" }}>
                             <Text style={styles.cardtext1}>Expiry Date</Text>

@@ -11,7 +11,8 @@ import Flexbox from './screens/Flexbox';
 import Native from './screens/Native';
 import Flutter from './screens/Flutter';
 import UItrends from './screens/UItrends';
-
+import KSRTC from './screens/KSRTC';
+import Businfo from './screens/Businfo';
 
 const Stack = createNativeStackNavigator();
 
@@ -62,6 +63,16 @@ const App = () => {
              <Stack.Screen
           name="UItrends"
           component={UItrends}
+          options={{ headerShown: false }}
+        />  
+            <Stack.Screen
+          name="KSRTC"
+          component={KSRTC}
+          options={{ headerShown: false }}
+        />  
+          <Stack.Screen
+          name="Businfo"
+          component={Businfo}
           options={{ headerShown: false }}
         />  
       </Stack.Navigator>

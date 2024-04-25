@@ -26,7 +26,7 @@ const Profile = () => {
 
             <View style={{ flexDirection: 'row' }}>
                 <View style={{ flex: 1 }}>
-                    <Image source={require('../assets/inmakes.jpg')}
+                    <Image source={require('../assets/logo123.png')}
                         style={styles.logo}>
                     </Image>
                     <View>
@@ -101,9 +101,11 @@ const styles = StyleSheet.create({
     },
     logo: {
 
-        width: 250,
-        height: 180,
+        width: 350,
+        height: 300,
         marginTop:0,
+        marginLeft:-5,
+        opacity:0,
         resizeMode: "contain",
         alignSelf: "center"
 
@@ -111,6 +113,8 @@ const styles = StyleSheet.create({
     logo1: {
         height: 200,
         width: 200,
+        
+        marginTop:-125,
         marginBottom: 10,
         resizeMode: "contain",
         alignSelf: "center"

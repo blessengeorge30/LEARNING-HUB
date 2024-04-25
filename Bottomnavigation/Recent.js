@@ -50,7 +50,7 @@ const Search = () => {
                 <View >
                     <TouchableOpacity style={styles.button}>
                         <Image source={require('../assets/blackcircle.png')} style={{ height: 15, width: 15, tintColor: 'green' }} />
-                        <Text style={styles.buttonText}>Classes</Text>
+                        <Text style={styles.buttonText}>Online</Text>
                     </TouchableOpacity>
                 </View>
 
@@ -111,6 +111,7 @@ const styles = StyleSheet.create({
         marginLeft: -15,
         marginRight: 25,
         marginTop: 8,
+        opacity:0,
         resizeMode: "contain"
     },
     wave: {

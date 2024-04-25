@@ -26,15 +26,15 @@ const Profile = () => {
 
             <View style={{ flexDirection: 'row' }}>
                 <View style={{ flex: 1 }}>
-                    <Image source={require('../assets/inmakes.jpg')}
+                    {/* <Image source={require('../assets/inmakes.jpg')}
                         style={styles.logo}>
-                    </Image>
+                    </Image> */}
                     <View>
                     <Image source={require('../assets/register.jpg')}
                         style={styles.logo1}>
                     </Image>
                     </View>
-                    <Text style={{ color: 'black', fontSize: 30, alignSelf: 'center', fontWeight: "bold" }}>Student's details</Text>
+                    <Text style={{ color: 'black', fontSize: 30, alignSelf: 'center', fontWeight: "bold" }}> User Registeration</Text>
                     <Text style={{ color: 'grey', fontSize: 15, alignSelf: 'center',marginBottom:10 }}>Insert your details to be registered </Text>
                    
                 </View>
@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
     logo1: {
         height: 220,
         width: 220,
-        marginTop:-45,
+        marginTop:115,
         marginBottom: 20,
         resizeMode: "contain",
         alignSelf: "center"

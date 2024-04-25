@@ -22,6 +22,12 @@ const Search = () => {
        const Flutter = () => {
            navigation.navigate("Flutter")
        }
+       const KSRTC = () => {
+        navigation.navigate("KSRTC")
+    }
+    const Businfo = () => {
+        navigation.navigate("Businfo")
+    }
        const course = () => {
         navigation.navigate("Native")
     }
@@ -32,8 +38,11 @@ const Search = () => {
             
             >
                 <View style={{ flexDirection: 'row'}}>
-                    <Image style={{ height: 40, width: 40, marginLeft: 15, marginTop: 10 }} source={item.image} />
-                    <Text style={{ marginLeft: 8, marginTop: 20, fontSize: 14, fontWeight: 'bold', color: 'black' }}>{item.name}</Text>
+                    <Image style={{ height: 30, width: 30, marginLeft: 25, marginTop:22,tintColor:"#2ecc71"}} source={item.image} />
+                    <Text style={{ marginLeft: 25, marginTop: 27, fontSize: 15, fontWeight: 'bold', color: 'black' }}>{item.name}</Text>
+<View>
+<Text style={{ marginLeft: -85, marginTop: 50, fontSize: 12, fontWeight: 'bold', color: 'black' }}>{item.name1}</Text>
+</View>
                     
                 </View>
                 {/* <View style={{ flexDirection: 'row' }}>
@@ -88,12 +97,12 @@ const Search = () => {
                     <Image source={require('../assets/menu.png')} style={{ height: 15, width: 15, tintColor: 'green' }} />
 
                 </TouchableOpacity>
-                <Image source={require('../assets/inmakes.jpg')}
+                <Image source={require('../assets/inmakes.jpeg')}
                     style={styles.logo} />
                 <View >
                     <TouchableOpacity style={styles.button}>
                         <Image source={require('../assets/blackcircle.png')} style={{ height: 15, width: 15, tintColor: 'green' }} />
-                        <Text style={styles.buttonText}>Classes</Text>
+                        <Text style={styles.buttonText}>Online</Text>
                     </TouchableOpacity>
                 </View>
 
@@ -102,37 +111,102 @@ const Search = () => {
 
             {/* <ActivityIndicator size={35}color='blue' animating={true}/> */}
             <View style={{ flexDirection: 'row' }}>
-                <Text style={styles.textView}>Welcome,</Text>
-                <Image source={require('../assets/wave.png')}
-                    style={styles.wave} />
+                <Text style={styles.textView}>BUS TRACK</Text>
+                {/* <Image source={require('../assets/wave.png')}
+                    style={styles.wave} /> */}
                 <View ></View>
 
             </View>
 
-            <Text style={styles.textView1}>BLESSEN GEORGE</Text>
+            <Text style={styles.textView1}>Know Your Bus Time  </Text>
             <TouchableOpacity style={styles.inputView}>
                 <View style={{ flexDirection: 'row',width:'100%',alignItems:'center',justifyContent:'space-between' }}>
-                    <Text style={{ color: 'grey', marginTop: 10 }}>BRANCH</Text>
+                    <Text style={{ color: 'grey', marginTop: 10 }}>SEARCH BUS</Text>
                     <Image source={require('../assets/arrowdown.png')}
                         style={styles.arrow} />
 
                 </View>
 
-                <Text style={{ color: 'white', marginTop: -5 }}>COMPUTER SCIENCE</Text>
+                <Text style={{ color: 'white', marginTop: -5 }}>FIND YOUR BUSES  </Text>
             </TouchableOpacity>
            
 
 
-            <View style={{ marginVertical: 12 }}>
-                    <ScrollView horizontal={true}>
+            {/* <View style={{ marginVertical: 12 }}>
+                    <ScrollView vertical={true}>
                         {
                             PRODUCT_HOME?.map((item) => {
                                 return renderitem(item);
                             })
                         }
                     </ScrollView>
-                </View>
-                <View>
+                </View> */}
+
+                <TouchableOpacity style={styles.headercard} onPress={KSRTC}>
+                    
+                        <View style={{flexDirection:'row', marginTop: 23 }}>
+                         <View style={{marginRight:15}}>
+                            <Image source={require('../assets/physics.png')}
+                                style={styles.logo26}>
+                            </Image>
+                        </View> 
+                          <View>
+                          <Text style={{ fontSize: 15, fontWeight: 'bold', color: 'black' }}>Bus Schedule</Text>
+                            <Text style={{ fontSize: 12, color: 'grey' }}>Provides departure times of bus services.</Text>
+                          </View>                   
+                        </View>
+                        
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.headercard} onPress={Businfo}>
+                    
+                    <View style={{flexDirection:'row', marginTop: 23 }}>
+                     <View style={{marginRight:15}}>
+                        <Image source={require('../assets/biology.png')}
+                            style={styles.logo26}>
+                        </Image>
+                    </View> 
+                      <View>
+                      <Text style={{ fontSize: 15, fontWeight: 'bold', color: 'black' }}>Bus Information</Text>
+                        <Text style={{ fontSize: 12, color: 'grey' }}>Provides essential information .</Text>
+                      </View>                   
+                    </View>
+                    
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.headercard} onPress={Flutter}>
+                    
+                    <View style={{flexDirection:'row', marginTop: 23 }}>
+                     <View style={{marginRight:15}}>
+                        <Image source={require('../assets/chem.png')}
+                            style={styles.logo26}>
+                        </Image>
+                    </View> 
+                      <View>
+                      <Text style={{ fontSize: 15, fontWeight: 'bold', color: 'black' }}>Search for Taxi</Text>
+                        <Text style={{ fontSize: 12, color: 'grey' }}>Instantly provides information about taxis.</Text>
+                      </View>                   
+                    </View>
+                    
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.headercard} onPress={Flutter}>
+                    
+                    <View style={{flexDirection:'row', marginTop: 23 }}>
+                     <View style={{marginRight:15}}>
+                        <Image source={require('../assets/swift.png')}
+                            style={styles.logo26}>
+                        </Image>
+                    </View> 
+                      <View>
+                      <Text style={{ fontSize: 15, fontWeight: 'bold', color: 'black' }}>Coustmer Services</Text>
+                        <Text style={{ fontSize: 12, color: 'grey' }}>Support to customers to resolve their inquiries.</Text>
+                      </View>                   
+                    </View>
+                    
+            </TouchableOpacity>
+
+
+
+            
+                {/* <View>
                 <Text style={{ color: 'grey', marginTop: 10,marginHorizontal:25 }}>Recent Courses</Text>
                 </View>
                 <View style={{ marginVertical: 12 }}>
@@ -152,7 +226,7 @@ const Search = () => {
                             })
                         }
                     </ScrollView>
-                </View>
+                </View> */}
 
                 </ImageBackground>
         </ScrollView>
@@ -176,12 +250,13 @@ const styles = StyleSheet.create({
     },
 
     logo: {
-        height: 210,
+        height: 0,
         width: 210,
-        marginBottom: 5,
-        marginLeft: -15,
+        marginBottom: 0,
+        marginLeft: -20,
         marginRight: 25,
         marginTop: 8,
+        opacity:0,
         resizeMode: "contain"
     },
     wave: {
@@ -200,25 +275,26 @@ const styles = StyleSheet.create({
         // marginLeft:250,
         marginTop:15,
         alignItems:'center',
-        justifyContent:"space-between"
+        justifyContent:"space-between",
+        transform: [{ rotate: '270 deg' }],
 
         
         
     },
     textView: {
-        fontSize: 18,
-        fontWeight: 'bold',
-        color: 'black',
-        marginLeft: 35,
-        marginTop: 40,
+        fontSize: 32,
+        fontWeight:'800',
+        color: '#2d390b',
+        marginLeft: 109,
+        marginTop: 30,
         
 
     },
     textView1: {
-        fontSize: 25,
-        fontWeight: 'bold',
+        fontSize: 22,
+        fontWeight: '300',
         color: 'black',
-        marginLeft: 35,
+        marginLeft: 100,
         marginTop: 5,
 
     },
@@ -239,8 +315,9 @@ const styles = StyleSheet.create({
         borderWidth: 0.5,
         borderRadius: 5,
         borderColor: '#062738',
-        backgroundColor: '#03141c',
+        backgroundColor: '#011a27',
         marginTop: 35,
+        marginBottom: 15,
         paddingHorizontal:15,
         marginLeft: 18,
 
@@ -296,13 +373,13 @@ const styles = StyleSheet.create({
     },
     discoversubjects: {
         borderWidth: 1,
-        width: 150,
-        height: 60,
-        borderColor: 'black',
-        borderRadius: 5,
-        elevation:8,
+        width: 350,
+        height: 80,
+        borderColor: 'white',
+        borderRadius: 8,
+        elevation:12,
         marginHorizontal: 10,
-        marginLeft:15,
+        marginLeft:28,
         marginTop:15,
         // alignItems: "center",
         // justifyContent: 'center',
@@ -322,6 +399,26 @@ const styles = StyleSheet.create({
         // alignItems: "center",
         // justifyContent: 'center',
         backgroundColor: '#01111a'
+    },
+    headercard: {
+        borderWidth: 0,
+        width: '85%',
+        height: 80,
+        backgroundColor: 'white',
+        marginTop: 20,
+        marginHorizontal: 25,
+        borderRadius: 10,
+        elevation: 15
+      
+      
+      },
+      logo26:{
+        height: 25,
+        width: 25,
+      marginTop:3,
+        marginLeft:22,
+        tintColor: '#2ecc71',
+        
     },
 })
 export default Search;

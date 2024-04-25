@@ -28,7 +28,7 @@ const Profile = () => {
 
             <View style={{ flexDirection: 'row', marginTop: 50, marginBottom: 10 }}>
                 <View style={{ flex: 1 }}>
-                    <Image source={require('../assets/inmakes.jpg')}
+                    <Image source={require('../assets/logo123.png')}
                         style={styles.logo}>
                     </Image>
                     <Text style={{ color: 'black', fontSize: 25, alignSelf: 'center', fontWeight: "bold" }}>Enter your Mobile Number</Text>
@@ -76,12 +76,12 @@ const styles = StyleSheet.create({
         flex: 1
     },
     logo: {
-        height: 350,
-        width: 350,
+        height: 380,
+        width: 380,
         marginBottom: 80,
         resizeMode: "contain",
         // marginLeft:45,
-
+opacity:0,
         alignSelf: "center"
 
     },

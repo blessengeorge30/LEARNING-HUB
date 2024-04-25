@@ -26,15 +26,15 @@ const Profile = () => {
 
             <View style={{ flexDirection: 'row' }}>
                 <View style={{ flex: 1 }}>
-                    <Image source={require('../assets/inmakes.jpg')}
+                    {/* <Image source={require('../assets/logo123.jpg')}
                         style={styles.logo}>
-                    </Image>
+                    </Image> */}
                     <View>
                     <Image source={require('../assets/college.jpg')}
                         style={styles.logo1}>
                     </Image>
                     </View>
-                    <Text style={{ color: 'black', fontSize: 20, alignSelf: 'center', fontWeight: "bold" }}>Select your University</Text>
+                    <Text style={{ color: 'black', fontSize: 20, alignSelf: 'center', fontWeight: "bold" }}>Select your College</Text>
                     <Text style={{ color: 'grey', fontSize: 15, alignSelf: 'center',marginBottom:10 }}>Insert your Credentials </Text>
                    
                 </View>
@@ -49,7 +49,7 @@ const Profile = () => {
                         maxLength={12}>
                     </TextInput>
                     <TextInput style={[styles.inputView, styles.setColorwhite]}
-                        placeholder='Select your University'
+                        placeholder='Enter your Class'
 
                         placeholderTextColor='#4d647b'
                         maxLength={12}>
@@ -105,6 +105,7 @@ const styles = StyleSheet.create({
     logo1: {
         height: 250,
         width: 250,
+        marginTop:115,
         marginBottom: 15,
         resizeMode: "contain",
         alignSelf: "center"

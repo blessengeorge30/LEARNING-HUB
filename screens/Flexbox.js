@@ -4,7 +4,7 @@ import { Text, View, Image } from "react-native";
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import HomeScreen from "../Bottomnavigation/HomeScreen";
 import Recent from "../Bottomnavigation/Recent";
-import Exams from "../Bottomnavigation/Exams";
+// import Exams from "../Bottomnavigation/Exams";
 import Profile from "../Bottomnavigation/Profile";
 import Notification from "../Bottomnavigation/Notification";
 import Icon from 'react-native-vector-icons/AntDesign';
@@ -26,12 +26,12 @@ const HomeIcon = () => (
       style={{ width: 20, height: 20, tintColor: "white" }}
     />
   );
-  const DiscoverIcon = () => (
-    <Image
-      source={require("../assets/discover.png")}
-      style={{ width: 24, height: 24, tintColor: "white" }}
-    />
-  );
+  // const DiscoverIcon = () => (
+  //   <Image
+  //     source={require("../assets/discover.png")}
+  //     style={{ width: 24, height: 24, tintColor: "white" }}
+  //   />
+  // );
   const NotifiactionIcon = () => (
     <Image
       source={require("../assets/Notificationicon.png")}
@@ -98,7 +98,7 @@ const Flexbox = () => {
                         marginTop: 1,
                     },
                 }} />
-                 <Tab.Screen
+                 {/* <Tab.Screen
                 name="Exams"
                 component={Exams}
                 options={{
@@ -111,7 +111,7 @@ const Flexbox = () => {
                         marginTop: 1,
 
                     },
-                }} />
+                }} /> */}
             <Tab.Screen
                 name="Notification"
                 component={Notification}
