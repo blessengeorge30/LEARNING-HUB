@@ -144,7 +144,7 @@ const styles = StyleSheet.create({
     inputView1: {
         width: '15%',
         height: 65,
-        borderWidth: 0.5,
+        borderWidth: 0.4,
         borderRadius: 5,
         borderColor: '#1d5370',
         backgroundColor: '#0c2532',
